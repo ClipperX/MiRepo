@@ -1,0 +1,17 @@
+{
+  "name": "HDFull Castellano",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "hdfull",
+      "name": "HDFull",
+      "description": "Películas y series en español (castellano) desde HDFull",
+      "version": "1.0.0",
+      "author": "comunidad (basado en ticolibre/NuvioLatam)",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/hdfull.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    }
+  ]
+}
